@@ -1,0 +1,25 @@
+$background : #1a1c1e;
+$background-light : #444;
+$text : #EEE;
+$header : white;
+
+// @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400&subset=latin-ext');
+
+
+@font-face {
+    font-family: 'Ruda';
+    src: url('fonts/subset-Ruda.eot'),
+    	url('fonts/subset-Ruda.ttf') format('truetype'),
+    	url('fonts/subset-Ruda.svg') format('svg'),
+    	url('fonts/subset-Ruda.otf') format('opentype'),
+    	url('fonts/subset-Ruda.woff') format('opentype'),
+    	url('fonts/subset-Ruda.woff2') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@import "reset";
+@import "header";
+@import "slider";
+
+@import "portfolio";
+@import "various";

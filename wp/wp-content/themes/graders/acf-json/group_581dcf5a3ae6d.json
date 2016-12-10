@@ -1,0 +1,215 @@
+{
+    "key": "group_581dcf5a3ae6d",
+    "title": "Template Options",
+    "fields": [
+        {
+            "key": "field_581dcf8723660",
+            "label": "Header Logo",
+            "name": "header_logo",
+            "type": "image",
+            "instructions": "Please select a logo for your website. This logo should be square in nature and at least 400 x 400 pixels big. The logo will be automatically scaled down and used in the header.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": 30,
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "portfolio",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_581dcffa23661",
+            "label": "Favicon",
+            "name": "favicon",
+            "type": "image",
+            "instructions": "Please select an image to be used as a favicon for the website. The image must be 32 x 32 pixels. Larger sizes will not be accepted.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": 30,
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "full",
+            "library": "all",
+            "min_width": 16,
+            "min_height": 16,
+            "min_size": "",
+            "max_width": 32,
+            "max_height": 32,
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_581dd07e23662",
+            "label": "Footer Disclaimer",
+            "name": "footer_disclaimer",
+            "type": "text",
+            "instructions": "Enter a disclaimer for the footer. You can use \"&copy;\" here.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": 40,
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Graders Studio 2016",
+            "placeholder": "Graders Studio 2016",
+            "prepend": "",
+            "append": "",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_581dd28271014",
+            "label": "Enable Contact",
+            "name": "enable_contact",
+            "type": "true_false",
+            "instructions": "If you disable the contact section, it will be effectively disabled.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": 100,
+                "class": "",
+                "id": ""
+            },
+            "message": "Enable Contact Section",
+            "default_value": 1
+        },
+        {
+            "key": "field_581dd1ae71013",
+            "label": "Map Image",
+            "name": "map_image",
+            "type": "image",
+            "instructions": "We are not using a real map. It is too heavy and unnecessary for this website. Please select an image to be used for the map. You can attach a screenshot of any size, it will be automatically cropped and scaled to 1300 x .720 pixels.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_581dd28271014",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": 30,
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "portfolio",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_581dd12d71011",
+            "label": "Contact Details",
+            "name": "contact_details",
+            "type": "textarea",
+            "instructions": "Please enter contact details to be overlayed over the map. If this field is left empty, nothing will be shown here.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_581dd28271014",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": 50,
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 11,
+            "new_lines": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_581dd16a71012",
+            "label": "Contact Email",
+            "name": "contact_email",
+            "type": "text",
+            "instructions": "Please enter an email address for the contact form on the website. If email field is left empty, the message form will be disabled.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_581dd28271014",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": 20,
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "template-options"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "permalink",
+        "the_content",
+        "excerpt",
+        "custom_fields",
+        "discussion",
+        "comments",
+        "revisions",
+        "slug",
+        "author",
+        "format",
+        "page_attributes",
+        "featured_image",
+        "categories",
+        "tags",
+        "send-trackbacks"
+    ],
+    "active": 1,
+    "description": "Global options for this template.",
+    "modified": 1478439133
+}

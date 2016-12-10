@@ -1,0 +1,54 @@
+/*
+   ,(   ,(   ,(   ,(   ,(   ,(   ,(   ,(
+`-'  `-'  `-'  `-'  `-'  `-'  `-'  `-'  `
+ *************************************
+ *         NOMAD DASH MEDIA         *
+ ************************************* 
+  Author: Marko Mitranic
+  Author URI: homullus.com
+*/
+
+.triangleswrapper {
+  border-top: 28px solid transparent;
+  border-right: 28px solid black;
+  border-bottom: 28px solid transparent;
+  border-left: 0px;
+  width: 0px;
+  height: 225px;
+  position: fixed;
+  right: 10px;
+  top: calc(50% - 140px);
+  z-index: 9803;
+}
+#triangles {
+  margin: 0; 
+  width: 20px;
+  padding-left: 4px;
+  height: auto;
+  
+}
+#triangles li {
+  list-style-type: none;
+  width: 0; 
+  height: 0; 
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent; 
+  margin-top:-18px;
+  
+}
+#triangles li:nth-child(even) {
+  border-left: 20px solid white; 
+  transition: 0.1s all; 
+}
+#triangles li:nth-child(odd) {
+  border-right: 20px solid white; 
+  transition: 0.5s all; 
+}
+.active-odd {
+  border-right: 20px solid orange !important;
+  transition: 0.1s all; 
+}
+.active-even {
+   border-left: 20px solid orange !important;
+   transition: 0.1s all;
+}

@@ -1,0 +1,168 @@
+{
+    "key": "group_581db0c94579b",
+    "title": "Graders",
+    "fields": [
+        {
+            "key": "field_581db0f0a4c70",
+            "label": "Slider",
+            "name": "slider",
+            "type": "repeater",
+            "instructions": "Select all the images you wish to be presented in the slider.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": 100,
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "field_581db11ca4c71",
+            "min": 1,
+            "max": "",
+            "layout": "block",
+            "button_label": "Add Slider Item",
+            "sub_fields": [
+                {
+                    "key": "field_581db11ca4c71",
+                    "label": "Image",
+                    "name": "image",
+                    "type": "image",
+                    "instructions": "Please select an image to be used for the slider item. The image should be larger than 1920 x 1080 pixels, but larger images will be scaled down and cropped.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": 100,
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "thumbnail",
+                    "library": "all",
+                    "min_width": 1920,
+                    "min_height": 1080,
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_581db0c94ab15",
+            "label": "Section Header",
+            "name": "section_header",
+            "type": "text",
+            "instructions": "Please enter a title for the section. The title should be lower case, it will be fixed to uppercase automatically.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": 20,
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Projects we did so far",
+            "prepend": "",
+            "append": "",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_581db0c94ab25",
+            "label": "Content",
+            "name": "content",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": 80,
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1
+        },
+        {
+            "key": "field_581dca1f01143",
+            "label": "Showreel",
+            "name": "showreel",
+            "type": "textarea",
+            "instructions": "Please insert a HTML code for your youtube or vimeo showreel presentation.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 3,
+            "new_lines": ""
+        },
+        {
+            "key": "field_581dca9d6b42d",
+            "label": "Section 2 Header",
+            "name": "section_header_2",
+            "type": "text",
+            "instructions": "Please enter a title for the section. The title should be lower case, it will be fixed to uppercase automatically.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": 20,
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Who are our clients",
+            "prepend": "",
+            "append": "",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_581dcaa26b42e",
+            "label": "Content 2",
+            "name": "content_2",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": 80,
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_type",
+                "operator": "==",
+                "value": "front_page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1479409154
+}
